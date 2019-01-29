@@ -1,23 +1,74 @@
-body {
-  color: blue;
+header{
+
+
+  margin: auto;
+  float: right;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb(153,153,255);
+  width:100%;
+  height: inherit;
+
+}
+
+#menu_header
+{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.element
+{
+  width=150px;
+  height=100px;
+}
+
+.element:nth-child(1)
+{
+  display:inline-block;
+
+}
+
+.element:nth-child(2)
+{
+  display:inline-block;
+
+}
+
+
+body
+{
+  background: url('home.jpg');
 }
 
 p {
   width: 50%;
   margin: auto;
+  background-color: rgb(200, 0, 100);
+  width: 100%;
+  height: 10%;
+  display: inline-block;
+  border-radius: 10px;
+
+  text-align: center;
 }
 
 #answer{
-  width 50%;
+  display: flex;
+  width: 100%;
   margin: auto;
+  overflow: auto;
 }
-.formulaire               {display:inline-block;}
-.formulaire .champ       {width:50%; height:35px;}
-.formulaire .bouton       {
-   background-image:url('valider.png');
-   background-repeat: no-repeat;
-   width: 35px;
-   height: 35px;
-   padding: 0;
+
+
+#specification
+{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  overflow: auto;
 }
+
+
 /*je n'arrive pas à mettre l'image "valider.png" dans le bouton.../*
