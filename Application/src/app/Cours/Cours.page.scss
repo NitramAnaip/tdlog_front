@@ -1,0 +1,27 @@
+
+a {
+    text-decoration: none;
+}
+
+ion-menu-button{
+    border-radius: 10px;
+    background-color:rgb(51, 204, 51);
+}
+
+.cours {
+    border-radius: 10px;
+    font-family: Trebuchet MS;
+    background-color:rgb(225,245,255);
+}
+
+.to_test {
+    border-radius: 10px;
+    font-family: Trebuchet MS;
+    background-color: rgb(0,153,255);
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+.to_test:hover {
+    background-color:rgb(51, 204, 51);
+}
