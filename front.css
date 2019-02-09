@@ -19,11 +19,12 @@ header{
   display: flex;
   justify-content: space-around;
   border-radius: 10px;
-  background: #851163; /* Old browsers */
-    background: -webkit-linear-gradient(left, #851163 0%, #5301c9 100%);
+  background-color: rgb(186, 85, 211);
+  /*background: #851163; /* Old browsers */
+  /*  background: -webkit-linear-gradient(left, #851163 0%, #5301c9 100%);
     background: -o-linear-gradient(left, #851163 0%, #5301c9 100%);
     background: linear-gradient(to right, #600000 0%, #5301c9 100%); /* FF3.6-15 / / Chrome10-25,Safari5.1-6 / / W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851163', endColorstr='#5301c9',GradientType=1 ); /* IE6-9 */
+  /*  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851163', endColorstr='#5301c9',GradientType=1 ); /* IE6-9 */
 }
 
 
@@ -46,21 +47,43 @@ header{
 }
 
 
+
+
+
+
 body
 {
-  background: url('spanish_flag_vertical.jpg');
-  background-size: cover;
+
+
   width: 100%;
+
+}
+
+body::after{
+  content: "";
+  background: url(spanish_flag_vertical.jpg);
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+
+  background-size: cover;
 }
 
 
-h1 {
+
+h2{
   width: 50%;
-  background-color: blue;
+  background-color: rgb(0,153,255);
   width: 99%;
-  height: 10%;
-  display: inline-block;
+  height: 5%;
   border-radius: 10px;
+  display: inline-block;
+  margin-top: 10%
+
   padding-top: 5%;
 }
 
@@ -70,12 +93,17 @@ h1 {
   height: 20%;
   background-color: ;
   margin-left: 15%;
+  margin-top: 10%;
   overflow: auto;
 }
+
 #bouton1{
   border-radius: 10px;
   width: 10%;
   height: 5%;
+}
+.bouton1:hover{
+  background-color: rgb(51, 204, 51);
 }
 
 #champ2{
@@ -91,6 +119,8 @@ h1 {
   background: url('valider.png');
   border-radius: 10px;
 }
-
+.bouton2:hover{
+  background-color: rgb(51, 204, 51);
+}
 
 /*je n'arrive pas à mettre l'image "valider.png" dans le bouton.../*
