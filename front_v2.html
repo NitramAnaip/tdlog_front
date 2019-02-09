@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercices</title>
+    <link rel="stylesheet" type="text/css" href="front_v2.css">
+  </head>
+
+
+  <body>
+    <div class="head">
+      <a href="cours.html">
+          <img class="Menu" src="accueil.png" alt="HTML tutorial" >
+      </a>
+      <div class="title">
+        <h1> <b>Exercices de {mettre le sujet} </b></h1>
+      </div>
+    </div>
+
+
+    <h2>
+      <center>phrase en français à traduire</center>
+    </h2>
+
+
+    <div id="answer" class="zone_rep">
+
+      <center><form action="" class="formulaire">
+        <input id="champ1" class="champ" type="text" value="entrez votre traduction"/>
+                      <input id="bouton1" class="bouton1" type="button" value="valider" />
+                      </center>
+    </div>
+
+
+  </form>
+  <div id="resultat"></div>
+  <script type="text/javascript">
+    let button = document.getElementById('bouton1')
+    let champ = document.getElementById('champ1')
+    let resultat = document.getElementById('resultat')
+    let nTentatives = 0
+    let vraieTraduction = 'salut' //emplacement de la bonn réponse
+    function click() {
+      nTentatives++
+      valeur = champ.value
+      if(valeur != vraieTraduction) {
+        if(nTentatives <= 3) {
+          //resultat.innerHTML = '<p>dfjkdjfhg</p>'// conseil a donner quad il se trompe
+          alert("le "+nTentatives+ "e indice")
+          alert('plus que ' + (3-nTentatives) + ' tentatives')
+        } else {
+          alert('déso c\'est fini')
+          alert('la réponse était: lqyjghflqrk')
+        }
+      } else {
+        alert('bravo')
+      }
+    }
+    button.addEventListener('click', click) //lie le bouton a la fonction click
+  </script>
+
+  <div id="specification">
+    <form action="" class="formulaire">
+      <input id="champ2" class="champ" type="text" value="partie cours utile"/>
+                    <input id="bouton2" class="bouton2" type="button" value="go" />
+    </div>
+
+
+
+
+    <a href="cours.html">
+      <div class="to_test">
+        <img src="spanish_flag.png">
+        <b>Vers le cours</b>
+      </div>
+    </a>
+  </body>
+</html>
