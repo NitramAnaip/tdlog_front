@@ -48,3 +48,13 @@ a {
 .to_test:hover {
     background-color:rgb(0, 10, 150);
 }
+
+#conteneur{
+  height: 8%;
+  background-color: rgb(220,220,220);
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
