@@ -63,34 +63,21 @@ h2{
     margin-top: 25%;
     position: relative;
     overflow: hidden;
+    background-color: rgb(0,153,255);
+
+}
+
+.to_test:hover{
+  background-color: rgb(0,50,255);
 }
 .to_test b {
     padding: 200px;
     position: relative;
     z-index: 2;
+
 }
 
-.to_test img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 30%;
-    height: 100%;
-    opacity: 0.6;
-    border-radius: 20px;
-    margin-left: 35%
-}
 
-.to_test:hover img{
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 30%;
-  height: 100%;
-  opacity: 1;
-  border-radius: 20px;
-  margin-left: 35%
-}
 
 
 #champ1{
