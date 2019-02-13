@@ -22,6 +22,14 @@ const routes: Routes = [
   {
     path: 'Exercice',
     loadChildren: './Exercice/Exercice.module#ExercicePageModule'
+  },
+  {
+    path: 'Grammaire',
+    loadChildren: './Grammaire/Grammaire.module#GrammairePageModule'
+  },
+  {
+    path: 'Conjugaison',
+    loadChildren: './Conjugaison/Conjugaison.module#ConjugaisonPageModule'
   }
 ];
 

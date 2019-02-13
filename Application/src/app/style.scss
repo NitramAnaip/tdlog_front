@@ -16,7 +16,7 @@ ion-menu-button{
 
 .cours {
     border-radius: 20px;
-    font-family: Comic Sans MS;
+    font-family: Trebuchet MS;
     background-color:rgb(225,245,255);
     padding: 10px;
 }
@@ -30,11 +30,12 @@ ion-menu-button{
     color: white;
     padding: 10px;
 }
-.to_test:hover {
-    background-color:rgb(51, 204, 51);
+.to_test:active {
+    background-color:rgb(15, 210, 255);
 }
 
 .bouton-accueil {
+    background-color:rgb(0, 153, 255);
     border-radius: 3px;
     font-family: Comic Sans MS;
     text-align: center;
@@ -45,8 +46,8 @@ ion-menu-button{
     color: white;
 }
 
-.bouton-accueil:hover {
-    background-color:rgb(51, 204, 51);
+.bouton-accueil:active {
+    background-color:rgb(15, 210, 255);
 }
 
 header{
@@ -93,42 +94,4 @@ header{
 {
   display:inline-block;
 
-}
-
-
-body
-{
-  background: url('./home.jpg');
-}
-
-h1 {
-  width: 50%;
-  background-color: blue;
-  width: 100%;
-  height: 10%;
-  display: inline-block;
-  border-radius: 10px;
-  padding-top: 5%;
-}
-
-
-#answer{
-  display: flex;
-  width: 100%;
-  margin: auto;
-  overflow: auto;
-  padding-top: 25%;
-  padding-left: 40%;
-
-}
-
-
-#specification
-{
-  display: flex;
-  width: 100%;
-  margin: auto;
-  overflow: auto;
-  padding-top: 25%;
-  padding-left: 40%;
 }

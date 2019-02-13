@@ -10,46 +10,8 @@
 </ion-header>
 
 <ion-content>
-  <header>
-    <div id="menu_header">
-      <div class="element">
-        <a href="/Cours"> cours </a>
-      </div>
-
-      <div class="element">
-        <a href="/home"> accueil </a>
-      </div>
-
-    </div>
-
-  </header>
-  <section>
-      <h1>
-        ici la phrase françcaise à traduire
-      </h1>
-
-
-  <div id="specification">
-    <form action="" class="formulaire">
-      <input id="champ" class="champ" type="text" value="partie cours utile"/>
-      <input id="bouton" class="bouton" type="button" value=" " />
-    </form>
-  </div>
-  <div id="answer">
-    <form action="" class="formulaire">
-      <input id="champ" class="champ" type="text" value="traduction"/>
-      <input id="bouton" class="bouton" type="button" value=" " />
-    </form>
-  </div>
-
-
-
-
-    <div id="resultat">
-      <script type="text/javascript">
-        
-      </script>
-      <p>opopo</p>
-    </div>
-  </section>
+    {{message}}
+    <ion-button (click)="logEvent()">
+        Click me!
+    </ion-button>
 </ion-content>

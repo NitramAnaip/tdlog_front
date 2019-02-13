@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Grammaire
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar
+    [(ngModel)]="mot"
+    [showCancelButton]="shouldShowCancel"
+    showCancelButton=true
+    placeholder="Rechercher un mot"
+    (ionInput)="recherche()">
+
+  </ion-searchbar>
+  <ion-item>
+  <ion-label>Type de mot:</ion-label>
+  <ion-select [(ngModel)]="type" interface="popover">
+    <ion-select-option value="tous">tous</ion-select-option>
+    <ion-select-option value="verbe">verbe</ion-select-option>
+    <ion-select-option value="nom">nom</ion-select-option>
+    <ion-select-option value="adjectif">adjectif</ion-select-option>
+    <ion-select-option value="autre">autre</ion-select-option>
+  </ion-select>
+</ion-item>
+  <ion-button (click)="recherche()">
+      Rechercher
+  </ion-button>
+  {{mot}}
+</ion-content>

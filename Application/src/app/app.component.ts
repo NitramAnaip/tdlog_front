@@ -23,12 +23,22 @@ export class AppComponent {
     {
       title: 'Cours',
       url: '/Cours',
-      icon: 'home'
+      icon: 'book'
     },
     {
       title: 'Exercice',
       url: '/Exercice',
-      icon: 'list'
+      icon: 'checkbox-outline'
+    },
+    {
+      title: 'Grammaire',
+      url: '/Grammaire',
+      icon: 'information'
+    },
+    {
+      title: 'Conjugaison',
+      url: '/Conjugaison',
+      icon: 'information'
     }
   ];
 

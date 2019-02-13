@@ -6,15 +6,16 @@ a {
     color: white;
     font-family:Trebuchet MS;
     overflow: auto;
+    height: 70px;
 }
 
 .Menu {
     position: relative;
     display: inline-block;
     border-radius: 10px;
-    width: 14%;
+    height: 65px;
+    width: 65px;
     padding:auto;
-    height: inherit;
 }
 
 .title {
@@ -22,9 +23,10 @@ a {
     display: inline-block;
     border-radius: 10px;
     background-color: rgb(0,153,255);
+    font-size: 12px;
+    height: 65px;
     text-align: center;
-    width:84%;
-    height: inherit;
+    width: 85%;
 }
 
 .cours {
