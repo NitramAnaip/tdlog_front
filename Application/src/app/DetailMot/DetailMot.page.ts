@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
+
 @Component({
-  selector: 'app-Exercice',
-  templateUrl: 'Exercice.page.html',
+  selector: 'app-DetailMot',
+  templateUrl: 'DetailMot.page.html',
   styleUrls: ['../style.scss'],
 })
 
 
-export class ExercicePage implements OnInit {
+export class DetailMotPage implements OnInit {
   item: any;
   public message: any;
   constructor(private route: ActivatedRoute) { }

@@ -30,6 +30,10 @@ const routes: Routes = [
   {
     path: 'Conjugaison',
     loadChildren: './Conjugaison/Conjugaison.module#ConjugaisonPageModule'
+  },
+  {
+    path: 'DetailMot',
+    loadChildren: './DetailMot/DetailMot.module#DetailMotPageModule'
   }
 ];
 

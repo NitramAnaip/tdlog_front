@@ -10,19 +10,13 @@
 </ion-header>
 
 <ion-content>
-  <a href="/list">
-    <div class="bouton-accueil">
-      <b>Accéder à la liste des cours</b>
-    </div>
-  </a>
-  <a href="/Cours">
-    <div class="bouton-accueil">
-      <b>Reprendre au dernier cours</b>
-    </div>
-  </a>
-  <a href="/Exercice">
-    <div class="bouton-accueil">
-      <b>Reprendre au dernier exercice</b>
-    </div>
-  </a>
+  <div class="bouton-accueil" [routerLink]="['/list']">
+    <b>Accéder à la liste des cours</b>
+  </div>
+  <div class="bouton-accueil" [routerLink]="['/Cours']">
+    <b>Reprendre au dernier cours</b>
+  </div>
+  <div class="bouton-accueil" [routerLink]="['/Exercice']">
+    <b>Reprendre au dernier exercice</b>
+  </div>
 </ion-content>

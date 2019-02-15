@@ -4,7 +4,7 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Grammaire
+      Vocabulaire
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -25,10 +25,13 @@
     <ion-select-option value="verbe">verbe</ion-select-option>
     <ion-select-option value="nom">nom</ion-select-option>
     <ion-select-option value="adjectif">adjectif</ion-select-option>
-    <ion-select-option value="autre">autre</ion-select-option>
+    <ion-select-option value="adverbe">adverbe</ion-select-option>
+    <ion-select-option value="conjonction">conjonction</ion-select-option>
+    <ion-select-option value="preposition">préposition</ion-select-option>
+    <ion-select-option value="pronom">pronom</ion-select-option>
   </ion-select>
 </ion-item>
-  <ion-button (click)="recherche()">
+  <ion-button (click)="recherche()" Expand="block">
       Rechercher
   </ion-button>
   {{mot}}

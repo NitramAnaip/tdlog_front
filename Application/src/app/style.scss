@@ -63,35 +63,6 @@ header{
 
 }
 
-#menu_header
-{
-  height: 2%;
-  padding-top: 2.5%;
-  padding-left: 15%;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 10px;
-  background: #851163; /* Old browsers */
-    background: -webkit-linear-gradient(left, #851163 0%, #5301c9 100%);
-    background: -o-linear-gradient(left, #851163 0%, #5301c9 100%);
-    background: linear-gradient(to right, #600000 0%, #5301c9 100%); /* FF3.6-15 / / Chrome10-25,Safari5.1-6 / / W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851163', endColorstr='#5301c9',GradientType=1 ); /* IE6-9 */
-}
-
-.element
-{
-  width: 150px;
-  height: 100px;
-}
-
-.element:nth-child(1)
-{
-  display:inline-block;
-
-}
-
-.element:nth-child(2)
-{
-  display:inline-block;
-
+.bouton_retour{
+    margin-left: 8px;
 }

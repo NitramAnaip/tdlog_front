@@ -4,7 +4,7 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Cours
+      Conjugaison
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -15,21 +15,36 @@
     [showCancelButton]="shouldShowCancel"
     showCancelButton=true
     placeholder="Rechercher un verbe"
-    (ionInput)="recherche()">
+    (ionChange)="recherche()">
 
   </ion-searchbar>
   <ion-item>
-  <ion-label>Type de mot:</ion-label>
-  <ion-select [(ngModel)]="temps" interface="popover">
-    <ion-select-option value="tous">tous</ion-select-option>
-    <ion-select-option value="verbe">verbe</ion-select-option>
-    <ion-select-option value="nom">nom</ion-select-option>
-    <ion-select-option value="adjectif">adjectif</ion-select-option>
-    <ion-select-option value="autre">autre</ion-select-option>
-  </ion-select>
-</ion-item>
-  <ion-button (click)="recherche()">
-      Rechercher
+    <ion-label>Personne:</ion-label>
+    <ion-select [(ngModel)]="personne" interface="popover">
+      <ion-select-option value="je">je</ion-select-option>
+      <ion-select-option value="tu">tu</ion-select-option>
+      <ion-select-option value="il/elle/on">il/elle/on</ion-select-option>
+      <ion-select-option value="nous">nous</ion-select-option>
+      <ion-select-option value="vous">vous</ion-select-option>
+      <ion-select-option value="ils/elles">ils/elles</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label>Temps:</ion-label>
+    <ion-select [(ngModel)]="temps" interface="popover">
+      <ion-select-option value="tous">tous</ion-select-option>
+      <ion-select-option value="verbe">verbe</ion-select-option>
+      <ion-select-option value="nom">nom</ion-select-option>
+      <ion-select-option value="adjectif">adjectif</ion-select-option>
+      <ion-select-option value="autre">autre</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-button (click)="recherche()" Expand="block">
+      Conjuguer le verbe
   </ion-button>
-  {{mot}}
+  <ion-list>
+    <ion-item *ngFor="let item of listeVerbe" (click)="goVerbe(item.verbe)">
+      {{item.verbe}}
+    </ion-item>
+  </ion-list>
 </ion-content>
