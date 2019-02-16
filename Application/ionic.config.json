@@ -1,6 +1,8 @@
 {
   "name": "Avecmenu",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "f8e71252"
 }

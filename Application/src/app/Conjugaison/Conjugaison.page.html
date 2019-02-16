@@ -32,11 +32,9 @@
   <ion-item>
     <ion-label>Temps:</ion-label>
     <ion-select [(ngModel)]="temps" interface="popover">
-      <ion-select-option value="tous">tous</ion-select-option>
-      <ion-select-option value="verbe">verbe</ion-select-option>
-      <ion-select-option value="nom">nom</ion-select-option>
-      <ion-select-option value="adjectif">adjectif</ion-select-option>
-      <ion-select-option value="autre">autre</ion-select-option>
+      <ion-select-option value="présent">présent</ion-select-option>
+      <ion-select-option value="passé">passé</ion-select-option>
+      <ion-select-option value="futur">future</ion-select-option>
     </ion-select>
   </ion-item>
   <ion-button (click)="recherche()" Expand="block">
