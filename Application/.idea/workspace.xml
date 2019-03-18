@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="5d5455b0-8793-4477-9212-baf543c9f2ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@ionic/angular/dist/providers/nav-controller.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@ionic/angular/dist/providers/nav-controller.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/ngcc/src/packages/build_marker.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/ngcc/src/packages/build_marker.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/ngcc/src/packages/build_marker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/ngcc/src/packages/build_marker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.es.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.es.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/dist/magic-string.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Conjugaison/Conjugaison.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Conjugaison/Conjugaison.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Conjugaison/Conjugaison.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Conjugaison/Conjugaison.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Conjugaison/dictRechercheFormesFlechies1000VerbesEsp.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +32,13 @@
     <session id="-1577169758">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,7 +54,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/platforms/android/app/build/outputs/apk/debug/app-debug.apk">
           <provider selected="true" editor-type-id="apk-viewer" />
@@ -45,9 +65,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="106" />
+    <option name="y" value="26" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -136,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,10 +184,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="20" width="1400" height="776" extended-state="0" />
+    <frame x="85" y="21" width="1400" height="776" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3294204" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3294204" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -176,7 +196,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="3" side_tool="true" visible="true" weight="0.32970452" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
